@@ -69,7 +69,7 @@ nav.sticky {background-color: #1a1a1a;}
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
