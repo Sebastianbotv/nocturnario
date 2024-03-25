@@ -3,6 +3,11 @@
     src: url(./assets/fonts/SpaceGrotesk-Medium.otf);
 }
 
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url(./assets/fonts/HelveticaNowDisplay-Bold.ttf);
+}
+
 /*@font-face {
     font-family: 'SpaceGrotesk';
     src: url(./assets/fonts/SpaceGrotesk-Light.otf);
@@ -13,6 +18,8 @@ body {margin: 0 auto;
     font-family: SpaceGrotesk;
 }
 
+
+/* EMPIEZA EL MENu */
 nav.menu {
 top: 0;
 left: 0;
@@ -37,6 +44,11 @@ flex-direction: row;
 align-items: center;
 flex-wrap: wrap;
 justify-content: space-evenly;}
+
+/* TERMINA EL MENU*/
+
+
+/* EMPIEZA EL HEADER */
 
 
 
@@ -81,3 +93,33 @@ justify-content: center;}
     font-size: 2em;
     ;
 color: white;}
+
+/* TERMINA EL HEADER */
+
+
+/*EMPIEZA LA SECCION DE PRESENTACION*/
+
+.presentacion{
+    width: 100%;
+height: 80vh;
+background: linear-gradient(#808080, #FFF);
+text-align: center;
+display: flex;
+flex-direction: column;
+align-content: center;
+flex-wrap: wrap;
+justify-content: center;}
+
+.titulo_presentacion{
+    font-family: HelveticaNowDisplay;
+    font-size:4em;
+    margin: 0;
+    padding-top: 4%;
+    color: #1a1a1a;
+}
+
+.contenedor_texto {width: 60%;
+text-align: center;}
+.contenedor_texto > p {font-size: 1.5em;
+margin-top: 5%;
+color: #1a1a1a;}
