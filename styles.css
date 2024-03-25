@@ -67,9 +67,7 @@ justify-content: space-evenly;}
     grid-row-gap: 0px;
     }
     
-    .parent::before{
-        content:;
-    }
+
     
     .logo { grid-area: 1 / 1 / 3 / 6; 
 
