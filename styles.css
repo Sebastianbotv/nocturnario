@@ -110,7 +110,7 @@ color: white;}
 .presentacion{
     width: 100%;
 height: 80vh;
-background: linear-gradient(#808080, #FFF);
+background: linear-gradient(#b2bec3, #FFF);
 text-align: center;
 display: flex;
 flex-direction: column;
@@ -131,3 +131,34 @@ text-align: center;}
 .contenedor_texto > p {font-size: 1.5em;
 margin-top: 5%;
 color: #1a1a1a;}
+
+
+/*TERMINA LA SECCION DE PRESENTACION*/
+
+footer {display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+height: 8vh;
+background-color: #1a1a1a;
+color: white;}
+
+footer span {text-align: center;}
+
+
+.contenedor_footer{width: 15%;
+    display: flex;
+    justify-content: center;}
+
+
+footer ul {display: flex; flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+list-style: none;}
+
+
+
+footer .contenedor_footer ul li a{color: white;
+text-decoration: none;}
