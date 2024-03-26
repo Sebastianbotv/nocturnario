@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'HelveticaNowDisplay';
-    src: url(./assets/fonts/HelveticaNowDisplay-Bold.ttf);
+    font-family: 'Poppins';
+    src: url(./assets/fonts/Poppins-Medium.ttf);
 }
 
 /*@font-face {
@@ -16,6 +16,7 @@
 
 body {margin: 0 auto;
     font-family: SpaceGrotesk;
+    color: #1a1a1a;
 }
 
 
@@ -119,7 +120,7 @@ flex-wrap: wrap;
 justify-content: center;}
 
 .titulo_presentacion{
-    font-family: HelveticaNowDisplay;
+    font-family: Poppins;
     font-size:4em;
     margin: 0;
     padding-top: 4%;
@@ -145,7 +146,7 @@ height: 100vh;
 text-align: center;
 }
 
-.integrantes h2{font-family: HelveticaNowDisplay;
+.integrantes h2{font-family: Poppins;
 font-size: 4em;}
 
 .contenedor_tarjetas{margin: 0 auto;
@@ -169,7 +170,8 @@ border-radius: 25px;}
 
 
 .tarjeta h3{ position: absolute;
-    font-family: HelveticaNowDisplay;
+    font-family: Poppins;
+    color: #1a1a1a;
 font-size: 2em;
 left: 45px;}
 
