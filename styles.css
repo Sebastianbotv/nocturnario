@@ -154,17 +154,31 @@ height: 50vh;
 display: flex;
 flex-wrap: wrap;
 justify-content:space-around;
+text-align: left;
 }
 
-.contenedor_tarjetas > .tarjeta{width: 500px;
-height: 450px;
+.contenedor_tarjetas > .tarjeta{
+    width: 500px;
+height: 500px;
 overflow: hidden;
 border-radius: 25px;}
 
 .contenedor, .tarjeta, img {width:500px;}
 
+.tarjeta{position: relative;}
 
-.tarjeta h3{font-family: HelveticaNowDisplay;}
+
+.tarjeta h3{ position: absolute;
+    font-family: HelveticaNowDisplay;
+font-size: 2em;
+left: 45px;}
+
+
+.tarjeta span{ position: absolute;
+font-size: 1.5em;
+left: 45px;
+bottom: 60px;}
+
 
 
 .contenedor_tarjetas > .tarjeta:hover{
