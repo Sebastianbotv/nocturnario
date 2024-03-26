@@ -204,6 +204,7 @@ height: auto;
 background-color: #1a1a1a;
 color: white;
 text-align: center;
+
 }
 
 .musica h3 {font-size: 4em;
@@ -216,7 +217,9 @@ padding-top: 3%;}
 display: flex;
 flex-direction: row;
 justify-content: center;
-align-items: center;}
+align-content: center;
+align-items: center;
+padding-bottom: 10% ;}
 
 .contenedor_portada {
 
@@ -258,9 +261,6 @@ font-size: 2em;
 
 .contenedor_portada > img{width: 700px;}
 
-.contenedor_portada > span{margin: 3%;
-font-size: 3em;
-font-family: Poppins;}
 
 .texto_eclipse {position: relative;
     width: 50%;
@@ -293,7 +293,23 @@ padding: 2% 8% 2% 8%;}
 color: #1a1a1a;}
 
 
+
 /*TERMINA LA SECCION DE MUSICA*/
+
+/*EMPIEZA SECCION EVENTOS*/
+
+
+.eventos{width: 100%;
+height: 80vh;
+text-align: center;
+font-size: 3em;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.eventos span{border: 3px solid #1a1a1a;
+border-radius: 85px;
+padding: 2%;}
 
 
 
