@@ -299,17 +299,52 @@ color: #1a1a1a;}
 /*EMPIEZA SECCION EVENTOS*/
 
 
-.eventos{width: 100%;
-height: 80vh;
-text-align: center;
+.eventos{margin: 0 auto;
+    width: 100%;
+height:auto;
 font-size: 3em;
-display: flex;
-align-items: center;
-justify-content: center;}
+}
 
-.eventos span{border: 3px solid #1a1a1a;
-border-radius: 85px;
-padding: 2%;}
+.eventos h3{font-family: poppins;
+font-size: 1.5em;
+text-align: center;}
+
+
+.contenedor_ev{margin: 0 auto;
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    border: 1px solid #1a1a1a;
+    margin-bottom: 5%;
+    
+}
+
+
+
+
+.texto_ev{
+background: #FFF;
+margin-left: -20px;}
+
+.texto_ev > #fecha{font-family: poppins;
+font-size: 1.2em;}
+
+.texto_ev > #lugar{font-size: 1em;}
+
+
+.img_ev{width:auto;
+height: 30vh;
+overflow: hidden;}
+
+.img_ev:hover{ transform: translateX(15px);
+overflow: visible;
+display: flex;
+align-items: center;}
 
 
 /*TERMINA SECCION EVENTOS*/
