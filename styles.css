@@ -339,12 +339,18 @@ font-size: 1.2em;}
 
 .img_ev{width:auto;
 height: 30vh;
-overflow: hidden;}
+overflow: hidden;
+transition: 0.6s;
+border-radius: 0px;}
 
-.img_ev:hover{ transform: translateX(15px);
+.img_ev img:hover{border-radius: 25px;}
+
+.img_ev:hover{ transform: translateX(15px) translateZ(15px) translateY(-15px);
 overflow: visible;
 display: flex;
-align-items: center;}
+align-items: center;
+box-shadow:0 12px 16px rgba(0, 0, 0, 0.2) ;
+}
 
 
 /*TERMINA SECCION EVENTOS*/
