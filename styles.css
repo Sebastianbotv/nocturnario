@@ -199,6 +199,7 @@ bottom: 40px;}
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
+.contenedor_tarjetas_media{display: none;}
 /*TERMINA LA SECCION DE INTEGRANTES*/
 
 
@@ -301,6 +302,15 @@ padding: 2% 8% 2% 8%;}
 .texto_eclipse button:hover{background-color: white;
 color: #1a1a1a;}
 
+.spotify{width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+padding-bottom: 5%;}
+
+.spotify p{font-size: 2em;}
 
 
 /*TERMINA LA SECCION DE MUSICA*/
@@ -430,7 +440,7 @@ list-style: none;}
   @media (min-width: 421px) and (max-width:810px) {
   
     body{
-      background:blue;
+      background:gray;
     }
     
     div.contenedor{width: 80%;
@@ -438,6 +448,89 @@ list-style: none;}
 
     .elementos_menu{
         justify-content: space-around;}
+
+     /*TERMINA MENU*/
+
+      .parent{  background:linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)), url(./assets/img/banda_img2.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat;}
+
+        .logo img{width: 250px;}
+
+        .noct2{ left: 100px;
+            bottom: 100px; ;
+            font-size: 5em;
+            line-height: 90px;
+        letter-spacing: 3px;}
+
+        .texto{ right:100px;
+            bottom: 100px;
+        font-size: 1.5em;
+        ;}
+
+         /*TERMINA HEADER*/
+
+         .titulo_presentacion{font-size:3em;}
+
+
+         /*TERMINA PRESENTACION*/
+
+
+
+         /*EMPIEZA INTEGRANTES*/
+
+         
+.integrantes{height:auto;}
+.integrantes > h2{
+font-size: 3em;}
+
+.contenedor_tarjetas{
+    display: none;
+}
+
+.contenedor_tarjetas_media{margin: 0 auto;
+    width: 100%;
+height:auto;
+display: flex;
+flex-direction: column;
+justify-content:center;
+gap: 50px;
+align-items: center;
+text-align: center;
+}
+
+.img_tarjeta{width: 400px;
+    height:auto;
+border-radius: 25px 25px 0px 0px;
+overflow: hidden;
+}
+
+.contenedor_tarjetas_media > .tarjeta_media{margin: 0 auto;
+    width: 400px;
+    height:375px;
+    background: white;
+
+border-radius: 25px;}
+
+.tarjeta_media > h3{font-size: 1.5em;
+margin: 10px;}
+.tarjeta_media > span{font-size: 1.5em;
+padding-bottom: 25px;}
+
+
+         /*TERMINA INTEGRANTES*/
+
+         
+
+         /*EMPIEZA MUSICA*/
+
+
+         .spotify{display: none;}
+         
+         /*TERMINA MUSICA*/
+
+         
 
   }
 
