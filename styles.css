@@ -210,7 +210,14 @@ header {
 .contenedor,
 .tarjeta,
 img {
-    width: 400px;
+    width: 100%;
+    
+}
+
+.img_tarjeta img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .tarjeta {
